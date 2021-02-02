@@ -18,7 +18,7 @@ const STANDARD_CHARACTER_STRING: &str =
 #[folder = "assets/fonts/"]
 pub struct Asset;
 
-const DEFAULT_FONT_SIZE: f32 = 14.0;
+const DEFAULT_FONT_SIZE: f32 = 30.0;
 
 #[derive(new, Clone, Hash, PartialEq, Eq, Debug)]
 struct ShapeKey {
